@@ -12,6 +12,22 @@ body {
     margin-bottom: 25px;
 }
 
+#personality-data {
+    font-size: 24px;
+}
+
+#personality-data .model_trait {
+    font-size: 20px;
+}
+
+#personality-data .model_trait:nth-child(2n+1) {
+    background-color: #ffffff;
+}
+
+#personality-data .model_title {
+    margin-top: 10px;
+}
+
 footer {
     margin: 50px 0;
 }
